@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Chat World</string>
+    <string name="title_activity_main">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="normal_map">Normal map</string>
+    <string name="hybrid_map">hybrid_map</string>
+    <string name="satellite_map">satellite_map</string>
+    <string name="terrain_map">terrain_map</string>
+</resources>

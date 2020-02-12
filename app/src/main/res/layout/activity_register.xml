@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/loginbg">
+
+    <TextView
+        android:layout_width="357dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="14dp"
+        android:text=" Create a new account"
+        android:textColor="#FFF"
+        android:textSize="33dp"/>
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:background="#fff"
+        android:fontFamily="serif"
+        android:hint="Email"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#fff"
+        android:fontFamily="serif"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000"/>
+    <EditText
+        android:id="@+id/register_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#fff"
+        android:fontFamily="serif"
+        android:hint="Confirm Password"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000"/>
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_bg"
+        android:text="Register"
+        android:textColor="#123C40"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/txt_login"
+        android:layout_width="295dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Already have an account? Log in here"
+        android:textColorLink="#FFF"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:textStyle="bold"/>
+
+</LinearLayout>
